@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<title>TAKAO 大阪でエンジニアをやっています。</title>
+	<meta name="description" content="TAKAO 大阪でエンジニアをやっています。">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- OGP -->
+	<meta property="og:url" content="http://tkoprt.web.fc2.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="TAKAO Portfolio">
+	<meta property="og:description" content="TAKAO 大阪でエンジニアをやっています。">
+	<meta property="og:image" content="http://example.com/images/mainvisual_p.jpg">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- ハンバーガーメニューボタン -->
+	<p class="menu-btn" id="menu-btn">
+		<span></span>
+		<span></span>
+		<span></span>
+	</p>
+	<!-- ヘッダー -->
+	<header class="page-header" id="top">
+
+		<!-- ロゴ -->
+		<h1><a href="https://tkoprt.web.fc2.com/"><img class="logo" src="images/logo.svg" alt="TAKAO"></a></h1>
+
+		<!-- ナビゲーション -->
+		<nav>
+			<ul class="menu">
+				<li class="top"><a href="#top">Top</a></li>
+				<li class="sevice"><a href="#service">Service</a></li>
+				<li class="works"><a href="#works">Works</a></li>
+				<li class="about"><a href="#about">About</a></li>
+<!--				<li class="contact"><a href="#contact">Contact</a></li>-->
+			</ul>
+		</nav>
+
+	</header>
+
+	<!-- TOP画 -->
+	<div class="main-visual"></div>
+
+	<!-- Service -->
+	<h2 class="ttl" id="service">Service</h2>
+	<div class="service-content wrapper">
+		<!-- エンジニア案件 -->
+		<div class="service-item">
+			<h3 class="ttl">エンジニア案件</h3>
+			<p class="ttl">DEMAND</p>
+			<p class="icon"><img src="images/demand.jpg" alt="demand"></p>
+			<p>
+				PHP、JavaScript等を使ったフロントエンドとサーバーサイド案件に対応いたします。常駐からリモートワーク、週1から対応いたします。
+			</p>
+		</div>
+		<!-- Webサイトの制作 -->
+		<div class="service-item">
+			<h3 class="ttl">Webサイトの制作</h3>
+			<p class="ttl">PRODUCTION</p>
+			<p class="icon"><img src="images/production.jpg" alt="production"></p>
+			<p>
+				新規Webサイトの制作を承ります。まずは、どのようなサイトを作りたいのかをヒアリングさせていただき、その後
+				お見積り→制作となります。Webサイトを作るにあたっては、掲載したい文章や写真などをご用意いただく必要があります。
+				自分で更新できるサイトも制作可能です。
+			</p>
+		</div>
+		<!-- サイトの保守・運用 -->
+		<div class="service-item">
+			<h3 class="ttl">サイトの保守・運用</h3>
+			<p class="ttl">MAINTENANCE</p>
+			<p class="icon"><img src="images/maintenance.jpg" alt="maintenance"></p>
+			<p>
+				既存サイトの修正や、内容の追加など、サイトお定期的なメンテナンスを承ります。更新が長く行われていないサイトは、
+				検索に弱くなります。時代に適した内容のサイトにして、より活用しましょう。
+			</p>
+		</div>
+	</div>
+
+	<!-- Works -->
+	<h2 class="ttl" id="works">Works</h2>
+	<div class="works-content wrapper">
+		<div class="works-item">
+			<a class="js-modal-open" href="" data-target="modal01"><img src="images/stcheck_top.png" alt=""></a>
+		</div>
+		<div class="works-item">
+			<a class="js-modal-open" href="" data-target="modal02"><img src="images/portfolio_top.png" alt=""></a>
+		</div>
+		<div class="works-item">
+			<img src="images/coming.png" alt="">
+		</div>
+
+		<!-- モーダルウィンドウ01 -->
+		<div class="modal js-modal" id="modal01">
+			<div class="modal__bg js-modal-close"></div>
+			<div class="modal__content">
+				<!-- 左側のカラム -->
+				<aside>
+					<h4 class="center-align"><span>Stcheck</span></h4>
+					<p>
+						Ruby on Railsで制作したWebアプリケーションです。路上ライブの情報を投稿、閲覧、検索できます。
+					</p>
+					<p><a href="https://github.com/takaoNakaji/live_app/" target="_blank"><img src="images/github.svg" alt="github-icon" class="svg-icon"> GitHub</a></p>
+					<h5 class="center-align"><span>使用言語など</span></h5>
+					<p>
+						Ruby on Rails, HTML/CSS(SASS), jQuery, Sqlite(開発), Postgresql(本番), Heroku
+					</p>
+				</aside>
+				<!--　右側のカラム　-->
+				<article>
+					<div class="thumbnails">
+						<ul class="sub-image" id="sub-image01">
+							<li class="current"><img src="images/stcheck_top.png" alt=""></li>
+							<li><img src="images/stcheck_login.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/stcheck_account_display.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/stcheck_regist.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/stcheck_display.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/stcheck_liveinfo.png" alt="" class="z-depth-2"></li>
+						</ul>
+					</div>
+					<div class="main-image" id="main-image01">
+						<a href="https://stcheck85.herokuapp.com/" target="_blank"><img src="images/stcheck_top.png" class="z-depth-2"></a>
+					</div>
+				</article>
+				<!-- 閉じるボタン -->
+				<a class="modal-close js-modal-close" href=""></a>
+			</div>
+		</div>
+		
+		<!-- モーダルウィンドウ02 -->
+		<div class="modal js-modal" id="modal02">
+			<div class="modal__bg js-modal-close"></div>
+			<div class="modal__content">
+				<!-- 左側のカラム -->
+				<aside>
+					<h4 class="center-align"><span>Portfolio</span></h4>
+					<p>
+						HTML/CSS, jQueryで制作したWebサイトです。自己紹介をしています。
+					</p>
+					<p><a href="https://github.com/takaoNakaji/live_app/" target="_blank"><img src="images/github.svg" alt="github-icon" class="svg-icon"> GitHub</a></p>
+					<h5 class="center-align"><span>使用言語など</span></h5>
+					<p>
+						HTML/CSS, jQuery
+					</p>
+				</aside>
+				<!--　右側のカラム　-->
+				<article>
+					<div class="thumbnails">
+						<ul class="sub-image" id="sub-image02">
+							<li class="current"><img src="images/portfolio_top.png" alt=""></li>
+							<li><img src="images/portfolio_service.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/portfolio_works.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/portfolio_about.png" alt="" class="z-depth-2"></li>
+							<li><img src="images/portfolio_contact.png" alt="" class="z-depth-2"></li>
+						</ul>
+					</div>
+					<div class="main-image" id="main-image02">
+						<a href="https://stcheck85.herokuapp.com/" target="_blank"><img src="images/portfolio_top.png" class="z-depth-2"></a>
+					</div>
+				</article>
+				<!-- 閉じるボタン -->
+				<a class="modal-close js-modal-close" href=""></a>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+	<div class="wrapper">
+		<h2 class="ttl" id="about">About</h2>
+		<p class="txt-box">
+			大阪にてエンジニアをしております。
+			<br>
+			2017年から4年間大阪市内のSIerで業務システムの開発などを行う。
+		</p>
+	</div>
+
+	<div class="about-content wrapper">
+		<aside>
+			<img src="images/about.jpg" alt="">
+		</aside>
+		<article>
+			<dl class="prof">
+				<dt>名前：</dt>
+				<dd>TAKAO　(タカオ)</dd>
+				<dt>所在地：</dt>
+				<dd>大阪市内</dd>
+				<dt>お問い合わせ：</dt>
+				<dd>si.go.5861@gmail.com</dd>
+				<dt>事業内容：</dt>
+				<dd>エンジニア案件、Web制作、スマートフォンサイト、CMS導入等</dd>
+				<dt>SNS：</dt>
+				<dd>
+					<a href="https://www.instagram.com/takao_0615/" target="_blank"><img src="images/instagram.png" alt="instagram"></a>
+					<a href="https://www.facebook.com/tko0615/" target="_blank"><img src="images/facebook.png" alt="facebook"></a>
+					<a href="https://twitter.com/go_5861/" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+					<a href="https://motokonbiniblog.com/" target="_blank"><img src="images/blog.png" alt="blog"></a>
+					<a href="https://github.com/takaoNakaji/" target="_blank"><img src="images/github.svg" alt="github" class="github-icon" id="github-icon"></a>
+				</dd>
+			</dl>
+		</article>
+	</div>
+
+<!--
+	 Contact 
+	<div class="wrapper">
+		<h2 class="ttl" id="contact">Contact</h2>
+		<p class="txt-box">
+			制作の依頼・ご相談などお気軽にお問い合わせくださいませ。
+			<br>
+			下記フォームよりわかる範囲でご記入ください。必須の項目は必ずご記入お願いします。
+		</p>
+
+		<form action="#">
+			<div>
+				<label for="company">貴社名</label>
+				<input type="text" id="company" name="company">
+			</div>
+			<div>
+				<label for="name">お名前<span class="required">必須</span></label>
+				<input type="text" id="name" name="name">
+			</div>
+			<div>
+				<label for="email">メールアドレス<span class="required">必須</span></label>
+				<input type="email" id="email" name="email">
+			</div>
+			<div>
+				<label for="tel">電話番号</label>
+				<input type="tel" id="tel" name="tel">
+			</div>
+			<div>
+				<label for="message">お問い合わせ内容<span class="required">必須</span></label>
+				<textarea id="message" name="message"></textarea>
+			</div>
+			<input type="submit" class="submitBtn" value="内容を送信する">
+		</form>
+	</div>
+-->
+
+	<!-- ページトップへボタン -->
+	<p class="pagetop" id="pagetop"><a href="#">PAGE<br>TOP</a></p>
+
+	<!-- フッター -->
+	<footer>
+		<div class="wrapper">
+			<p><small>&copy; TAKAO All rights reserved.</small></p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
