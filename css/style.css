@@ -420,19 +420,18 @@ header {
 }
 
 .prof {
+	display: flex;
+	flex-wrap:wrap;
 	margin-bottom: 20px;
 	font-size: 13px;
 }
 
 .prof dt {
-	float: left;
-	display: block;
 	width: 20%;
 	font-weight: bold;
 }
 
 .prof dd {
-	float: right;
 	width: 80%;
 	font-size: 13px;
 }
