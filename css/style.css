@@ -434,6 +434,7 @@ header {
 .prof dd {
 	width: 80%;
 	font-size: 13px;
+	padding-left: 10px;
 }
 
 .prof img {
