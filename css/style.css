@@ -334,6 +334,7 @@ header {
 
 .sub-image {
 	display: flex;
+	justify-content: center;
 }
 
 .sub-image li {
