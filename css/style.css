@@ -427,14 +427,13 @@ header {
 }
 
 .prof dt {
-	width: 20%;
+	width: 15%;
 	font-weight: bold;
 }
 
 .prof dd {
 	width: 80%;
 	font-size: 13px;
-	padding-left: 10px;
 }
 
 .prof img {
@@ -678,6 +677,13 @@ footer p {
 	.about-content article,
 	.about-content aside {
 		width: 100%;
+	}
+	.prof dt {
+	width: 30%;
+	}
+
+	.prof dd {
+		width: 70%;
 	}
 
 	/* フォーム */
